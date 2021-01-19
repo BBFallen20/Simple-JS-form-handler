@@ -1,0 +1,32 @@
+.inp{
+    height: 30px;
+    width: 150px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: cornflowerblue;
+    background-color: aliceblue;
+    padding-left: 5px;
+
+}
+.inp:hover{
+    transition: .3s;
+    background-color: lightgreen;
+    width: 180px;
+}
+.button{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 20px;
+    width: 180px;
+    height: 40px;
+    border-width: 4px;
+    border-color: cornflowerblue;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+.button:hover{
+    background-color: greenyellow;
+    transition: .3s;
+}

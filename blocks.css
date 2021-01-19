@@ -1,0 +1,12 @@
+.block{
+    margin-top: 25px;
+}
+.mainform{
+    background: url("goluboy-fon.jpg");
+    width: min-content;
+    border-style: solid;
+    border-color: cornflowerblue;
+    padding: 20px;
+    margin: auto;
+    height: 100%;
+}

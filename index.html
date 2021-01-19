@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Обробка форм</title>
+
+    <link rel="stylesheet" href="blocks.css">
+    <link rel="stylesheet" href="inputs.css">
+    <link rel="stylesheet" href="headings.css">
+
+</head>
+<body style="background: url('goluboy-fon.jpg'); font-family: Arial;size: 14px">
+<form class="mainform" action="" method="post" name="profile" id="profile_form">
+    <fieldset style="">
+        <legend><strong>Обробка форми з JavaScript</strong></legend>
+        <div class="form-heading">
+            <strong>ПІБ:</strong>
+            <strong style="margin-left: 220px;">Про себе:</strong>
+        </div>
+
+        <div class="form-heading">
+            <input class="inp" type="text" name="name" placeholder="Введіть ПІБ" id="name"><br>
+            <textarea class="inp" style="margin-left:100px" name="about" id="about" cols="30" rows="10" placeholder="Талановитий програміст"></textarea><br>
+        </div>
+        <div class="block">
+            <strong>Електронна адреса:</strong><br>
+            <input class="inp" type="text" name="mail" placeholder="example@mail" id="mail" style=""><br>
+        </div>
+        <div class="block">
+            <strong>Номер телефону:</strong><br>
+            <input class="inp" type="text" name="phone_number" placeholder="+0000000000" id="phone_number" maxlength="13"><br>
+        </div>
+        <div class="block">
+            <strong>Дата народження:</strong><br>
+            <input class="inp" type="date" name="bd" id="bd"><br>
+        </div>
+        <div class="block">
+            <strong>Пароль:</strong><br>
+            <input class="inp" type="password" name="password1" id="password1" placeholder="********" maxlength="15"><br>
+        </div>
+        <div class="block">
+            <strong>Підтвердити пароль:</strong><br>
+            <input class="inp" type="password" name="password2" id="password2" placeholder="********" maxlength="15"><br>
+        </div>
+
+
+
+
+        <input class="button" type="button" onclick="go(document.getElementById('profile_form'))" name="submit" value="Зберегти">
+
+
+    </fieldset>
+
+</form>
+<script type="module" src="main.js">
+</script>
+</body>
+</html>
